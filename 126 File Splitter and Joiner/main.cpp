@@ -7,9 +7,10 @@
 //
 
 #include <iostream>
+#include "FileSplitter.hpp"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    FileSplitter::splitFileIntoParts("/Users/gregsalvesen/Documents", "Indirect interaction", 3);
+    
     return 0;
 }

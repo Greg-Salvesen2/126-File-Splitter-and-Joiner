@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AC19FEBE1DD0DC5F009CA107 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC19FEBD1DD0DC5F009CA107 /* main.cpp */; };
+		AC19FEC61DD0DEBF009CA107 /* FileSplitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC19FEC41DD0DEBF009CA107 /* FileSplitter.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,9 @@
 /* Begin PBXFileReference section */
 		AC19FEBA1DD0DC5F009CA107 /* 126 File Splitter and Joiner */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "126 File Splitter and Joiner"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC19FEBD1DD0DC5F009CA107 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AC19FEC41DD0DEBF009CA107 /* FileSplitter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileSplitter.cpp; sourceTree = "<group>"; };
+		AC19FEC51DD0DEBF009CA107 /* FileSplitter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FileSplitter.hpp; sourceTree = "<group>"; };
+		AC19FEC71DD0E640009CA107 /* info */ = {isa = PBXFileReference; lastKnownFileType = text; path = info; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			children = (
 				AC19FEBC1DD0DC5F009CA107 /* 126 File Splitter and Joiner */,
 				AC19FEBB1DD0DC5F009CA107 /* Products */,
+				AC19FEC71DD0E640009CA107 /* info */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				AC19FEBD1DD0DC5F009CA107 /* main.cpp */,
+				AC19FEC51DD0DEBF009CA107 /* FileSplitter.hpp */,
+				AC19FEC41DD0DEBF009CA107 /* FileSplitter.cpp */,
 			);
 			path = "126 File Splitter and Joiner";
 			sourceTree = "<group>";
@@ -118,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC19FEC61DD0DEBF009CA107 /* FileSplitter.cpp in Sources */,
 				AC19FEBE1DD0DC5F009CA107 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
