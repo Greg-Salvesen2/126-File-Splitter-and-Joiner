@@ -10,7 +10,8 @@
 #include "FileSplitter.hpp"
 
 int main(int argc, const char * argv[]) {
-    FileSplitter::splitFileIntoParts("/Users/gregsalvesen/Documents", "Indirect interaction", 3);
+    FileSplitter splitter;
+    splitter.splitFileIntoParts("/Users/gregsalvesen/Documents/Split", "Large Image.jpg", 3);
     
     return 0;
 }

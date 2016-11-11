@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AC19FEBE1DD0DC5F009CA107 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC19FEBD1DD0DC5F009CA107 /* main.cpp */; };
 		AC19FEC61DD0DEBF009CA107 /* FileSplitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC19FEC41DD0DEBF009CA107 /* FileSplitter.cpp */; };
+		AC19FECA1DD56F6F009CA107 /* FileCombiner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC19FEC81DD56F6F009CA107 /* FileCombiner.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,8 @@
 		AC19FEC41DD0DEBF009CA107 /* FileSplitter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileSplitter.cpp; sourceTree = "<group>"; };
 		AC19FEC51DD0DEBF009CA107 /* FileSplitter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FileSplitter.hpp; sourceTree = "<group>"; };
 		AC19FEC71DD0E640009CA107 /* info */ = {isa = PBXFileReference; lastKnownFileType = text; path = info; sourceTree = "<group>"; };
+		AC19FEC81DD56F6F009CA107 /* FileCombiner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileCombiner.cpp; sourceTree = "<group>"; };
+		AC19FEC91DD56F6F009CA107 /* FileCombiner.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FileCombiner.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 				AC19FEBD1DD0DC5F009CA107 /* main.cpp */,
 				AC19FEC51DD0DEBF009CA107 /* FileSplitter.hpp */,
 				AC19FEC41DD0DEBF009CA107 /* FileSplitter.cpp */,
+				AC19FEC81DD56F6F009CA107 /* FileCombiner.cpp */,
+				AC19FEC91DD56F6F009CA107 /* FileCombiner.hpp */,
 			);
 			path = "126 File Splitter and Joiner";
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC19FECA1DD56F6F009CA107 /* FileCombiner.cpp in Sources */,
 				AC19FEC61DD0DEBF009CA107 /* FileSplitter.cpp in Sources */,
 				AC19FEBE1DD0DC5F009CA107 /* main.cpp in Sources */,
 			);

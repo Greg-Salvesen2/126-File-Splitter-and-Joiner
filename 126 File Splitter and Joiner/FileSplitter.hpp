@@ -17,5 +17,9 @@ public:
     static void splitFileIntoParts(std::string directory, std::string filePath, int numFiles);
     static void splitFileIntoSizes(std::string directory, std::string filePath, int sizeOfFiles);
     
+private:
+    static void splitFile(std::ifstream *file, int numFiles, long fileSize, std::string directory, std::string fileName);
+    
+    
 
 };
